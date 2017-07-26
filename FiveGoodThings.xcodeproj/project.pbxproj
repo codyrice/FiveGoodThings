@@ -14,6 +14,8 @@
 		C36E50B21F287285001FFC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36E50B01F287285001FFC88 /* LaunchScreen.storyboard */; };
 		C36E50BD1F287285001FFC88 /* FiveGoodThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E50BC1F287285001FFC88 /* FiveGoodThingsTests.swift */; };
 		C36E50C81F287286001FFC88 /* FiveGoodThingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E50C71F287286001FFC88 /* FiveGoodThingsUITests.swift */; };
+		C36E50D61F2872CE001FFC88 /* GoodThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E50D51F2872CE001FFC88 /* GoodThings.swift */; };
+		C36E50D81F2872EB001FFC88 /* Feeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E50D71F2872EB001FFC88 /* Feeling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C36E50C31F287286001FFC88 /* FiveGoodThingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveGoodThingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36E50C71F287286001FFC88 /* FiveGoodThingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveGoodThingsUITests.swift; sourceTree = "<group>"; };
 		C36E50C91F287286001FFC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36E50D51F2872CE001FFC88 /* GoodThings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodThings.swift; sourceTree = "<group>"; };
+		C36E50D71F2872EB001FFC88 /* Feeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feeling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				C36E50A71F287285001FFC88 /* AppDelegate.swift */,
 				C36E50A91F287285001FFC88 /* ViewController.swift */,
+				C36E50D51F2872CE001FFC88 /* GoodThings.swift */,
+				C36E50D71F2872EB001FFC88 /* Feeling.swift */,
 				C36E50AB1F287285001FFC88 /* Main.storyboard */,
 				C36E50AE1F287285001FFC88 /* Assets.xcassets */,
 				C36E50B01F287285001FFC88 /* LaunchScreen.storyboard */,
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36E50D61F2872CE001FFC88 /* GoodThings.swift in Sources */,
 				C36E50AA1F287285001FFC88 /* ViewController.swift in Sources */,
+				C36E50D81F2872EB001FFC88 /* Feeling.swift in Sources */,
 				C36E50A81F287285001FFC88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
