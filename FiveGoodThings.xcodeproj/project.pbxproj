@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C36E50A81F287285001FFC88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E50A71F287285001FFC88 /* AppDelegate.swift */; };
+		C36E50AA1F287285001FFC88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E50A91F287285001FFC88 /* ViewController.swift */; };
+		C36E50AD1F287285001FFC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36E50AB1F287285001FFC88 /* Main.storyboard */; };
+		C36E50AF1F287285001FFC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36E50AE1F287285001FFC88 /* Assets.xcassets */; };
+		C36E50B21F287285001FFC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36E50B01F287285001FFC88 /* LaunchScreen.storyboard */; };
+		C36E50BD1F287285001FFC88 /* FiveGoodThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E50BC1F287285001FFC88 /* FiveGoodThingsTests.swift */; };
+		C36E50C81F287286001FFC88 /* FiveGoodThingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E50C71F287286001FFC88 /* FiveGoodThingsUITests.swift */; };
+		C36E50D61F2872CE001FFC88 /* GoodThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E50D51F2872CE001FFC88 /* GoodThings.swift */; };
+		C36E50D81F2872EB001FFC88 /* Feeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36E50D71F2872EB001FFC88 /* Feeling.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C36E50B91F287285001FFC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36E509C1F287285001FFC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36E50A31F287285001FFC88;
+			remoteInfo = FiveGoodThings;
+		};
+		C36E50C41F287286001FFC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36E509C1F287285001FFC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36E50A31F287285001FFC88;
+			remoteInfo = FiveGoodThings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C36E50A41F287285001FFC88 /* FiveGoodThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveGoodThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36E50A71F287285001FFC88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C36E50A91F287285001FFC88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C36E50AC1F287285001FFC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C36E50AE1F287285001FFC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36E50B11F287285001FFC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C36E50B31F287285001FFC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36E50B81F287285001FFC88 /* FiveGoodThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveGoodThingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36E50BC1F287285001FFC88 /* FiveGoodThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveGoodThingsTests.swift; sourceTree = "<group>"; };
+		C36E50BE1F287285001FFC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36E50C31F287286001FFC88 /* FiveGoodThingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveGoodThingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36E50C71F287286001FFC88 /* FiveGoodThingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveGoodThingsUITests.swift; sourceTree = "<group>"; };
+		C36E50C91F287286001FFC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36E50D51F2872CE001FFC88 /* GoodThings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodThings.swift; sourceTree = "<group>"; };
+		C36E50D71F2872EB001FFC88 /* Feeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feeling.swift; sourceTree = "<group>"; };
+		C3CD648B1F2886A900A2CE6E /* FiveGoodThings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FiveGoodThings.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36E50A11F287285001FFC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E50B51F287285001FFC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E50C01F287286001FFC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C36E509B1F287285001FFC88 = {
+			isa = PBXGroup;
+			children = (
+				C36E50A61F287285001FFC88 /* FiveGoodThings */,
+				C36E50BB1F287285001FFC88 /* FiveGoodThingsTests */,
+				C36E50C61F287286001FFC88 /* FiveGoodThingsUITests */,
+				C36E50A51F287285001FFC88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36E50A51F287285001FFC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36E50A41F287285001FFC88 /* FiveGoodThings.app */,
+				C36E50B81F287285001FFC88 /* FiveGoodThingsTests.xctest */,
+				C36E50C31F287286001FFC88 /* FiveGoodThingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36E50A61F287285001FFC88 /* FiveGoodThings */ = {
+			isa = PBXGroup;
+			children = (
+				C3CD648B1F2886A900A2CE6E /* FiveGoodThings.entitlements */,
+				C36E50A71F287285001FFC88 /* AppDelegate.swift */,
+				C36E50A91F287285001FFC88 /* ViewController.swift */,
+				C36E50D51F2872CE001FFC88 /* GoodThings.swift */,
+				C36E50D71F2872EB001FFC88 /* Feeling.swift */,
+				C36E50AB1F287285001FFC88 /* Main.storyboard */,
+				C36E50AE1F287285001FFC88 /* Assets.xcassets */,
+				C36E50B01F287285001FFC88 /* LaunchScreen.storyboard */,
+				C36E50B31F287285001FFC88 /* Info.plist */,
+			);
+			path = FiveGoodThings;
+			sourceTree = "<group>";
+		};
+		C36E50BB1F287285001FFC88 /* FiveGoodThingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36E50BC1F287285001FFC88 /* FiveGoodThingsTests.swift */,
+				C36E50BE1F287285001FFC88 /* Info.plist */,
+			);
+			path = FiveGoodThingsTests;
+			sourceTree = "<group>";
+		};
+		C36E50C61F287286001FFC88 /* FiveGoodThingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C36E50C71F287286001FFC88 /* FiveGoodThingsUITests.swift */,
+				C36E50C91F287286001FFC88 /* Info.plist */,
+			);
+			path = FiveGoodThingsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36E50A31F287285001FFC88 /* FiveGoodThings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36E50CC1F287286001FFC88 /* Build configuration list for PBXNativeTarget "FiveGoodThings" */;
+			buildPhases = (
+				C36E50A01F287285001FFC88 /* Sources */,
+				C36E50A11F287285001FFC88 /* Frameworks */,
+				C36E50A21F287285001FFC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiveGoodThings;
+			productName = FiveGoodThings;
+			productReference = C36E50A41F287285001FFC88 /* FiveGoodThings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36E50B71F287285001FFC88 /* FiveGoodThingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36E50CF1F287286001FFC88 /* Build configuration list for PBXNativeTarget "FiveGoodThingsTests" */;
+			buildPhases = (
+				C36E50B41F287285001FFC88 /* Sources */,
+				C36E50B51F287285001FFC88 /* Frameworks */,
+				C36E50B61F287285001FFC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36E50BA1F287285001FFC88 /* PBXTargetDependency */,
+			);
+			name = FiveGoodThingsTests;
+			productName = FiveGoodThingsTests;
+			productReference = C36E50B81F287285001FFC88 /* FiveGoodThingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C36E50C21F287286001FFC88 /* FiveGoodThingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36E50D21F287286001FFC88 /* Build configuration list for PBXNativeTarget "FiveGoodThingsUITests" */;
+			buildPhases = (
+				C36E50BF1F287286001FFC88 /* Sources */,
+				C36E50C01F287286001FFC88 /* Frameworks */,
+				C36E50C11F287286001FFC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36E50C51F287286001FFC88 /* PBXTargetDependency */,
+			);
+			name = FiveGoodThingsUITests;
+			productName = FiveGoodThingsUITests;
+			productReference = C36E50C31F287286001FFC88 /* FiveGoodThingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36E509C1F287285001FFC88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Devin Rice";
+				TargetAttributes = {
+					C36E50A31F287285001FFC88 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JPJD2GFK2K;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					C36E50B71F287285001FFC88 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JPJD2GFK2K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C36E50A31F287285001FFC88;
+					};
+					C36E50C21F287286001FFC88 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JPJD2GFK2K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C36E50A31F287285001FFC88;
+					};
+				};
+			};
+			buildConfigurationList = C36E509F1F287285001FFC88 /* Build configuration list for PBXProject "FiveGoodThings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36E509B1F287285001FFC88;
+			productRefGroup = C36E50A51F287285001FFC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36E50A31F287285001FFC88 /* FiveGoodThings */,
+				C36E50B71F287285001FFC88 /* FiveGoodThingsTests */,
+				C36E50C21F287286001FFC88 /* FiveGoodThingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36E50A21F287285001FFC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36E50B21F287285001FFC88 /* LaunchScreen.storyboard in Resources */,
+				C36E50AF1F287285001FFC88 /* Assets.xcassets in Resources */,
+				C36E50AD1F287285001FFC88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E50B61F287285001FFC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E50C11F287286001FFC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36E50A01F287285001FFC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36E50D61F2872CE001FFC88 /* GoodThings.swift in Sources */,
+				C36E50AA1F287285001FFC88 /* ViewController.swift in Sources */,
+				C36E50D81F2872EB001FFC88 /* Feeling.swift in Sources */,
+				C36E50A81F287285001FFC88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E50B41F287285001FFC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36E50BD1F287285001FFC88 /* FiveGoodThingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36E50BF1F287286001FFC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36E50C81F287286001FFC88 /* FiveGoodThingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36E50BA1F287285001FFC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36E50A31F287285001FFC88 /* FiveGoodThings */;
+			targetProxy = C36E50B91F287285001FFC88 /* PBXContainerItemProxy */;
+		};
+		C36E50C51F287286001FFC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36E50A31F287285001FFC88 /* FiveGoodThings */;
+			targetProxy = C36E50C41F287286001FFC88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C36E50AB1F287285001FFC88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36E50AC1F287285001FFC88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C36E50B01F287285001FFC88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36E50B11F287285001FFC88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36E50CA1F287286001FFC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C36E50CB1F287286001FFC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36E50CD1F287286001FFC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JPJD2GFK2K;
+				INFOPLIST_FILE = FiveGoodThings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyrice.FiveGoodThings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C36E50CE1F287286001FFC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JPJD2GFK2K;
+				INFOPLIST_FILE = FiveGoodThings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyrice.FiveGoodThings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C36E50D01F287286001FFC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JPJD2GFK2K;
+				INFOPLIST_FILE = FiveGoodThingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyrice.FiveGoodThingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiveGoodThings.app/FiveGoodThings";
+			};
+			name = Debug;
+		};
+		C36E50D11F287286001FFC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JPJD2GFK2K;
+				INFOPLIST_FILE = FiveGoodThingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyrice.FiveGoodThingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiveGoodThings.app/FiveGoodThings";
+			};
+			name = Release;
+		};
+		C36E50D31F287286001FFC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JPJD2GFK2K;
+				INFOPLIST_FILE = FiveGoodThingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyrice.FiveGoodThingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FiveGoodThings;
+			};
+			name = Debug;
+		};
+		C36E50D41F287286001FFC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JPJD2GFK2K;
+				INFOPLIST_FILE = FiveGoodThingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codyrice.FiveGoodThingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FiveGoodThings;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36E509F1F287285001FFC88 /* Build configuration list for PBXProject "FiveGoodThings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36E50CA1F287286001FFC88 /* Debug */,
+				C36E50CB1F287286001FFC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36E50CC1F287286001FFC88 /* Build configuration list for PBXNativeTarget "FiveGoodThings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36E50CD1F287286001FFC88 /* Debug */,
+				C36E50CE1F287286001FFC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36E50CF1F287286001FFC88 /* Build configuration list for PBXNativeTarget "FiveGoodThingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36E50D01F287286001FFC88 /* Debug */,
+				C36E50D11F287286001FFC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36E50D21F287286001FFC88 /* Build configuration list for PBXNativeTarget "FiveGoodThingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36E50D31F287286001FFC88 /* Debug */,
+				C36E50D41F287286001FFC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36E509C1F287285001FFC88 /* Project object */;
+}
