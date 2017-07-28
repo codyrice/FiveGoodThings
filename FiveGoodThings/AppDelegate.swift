@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        registerForPushNotifications()
         return true
+        
+        // Check if launched from notification
+        if let notification = launchOptions?[.remoteNotification] as? [String: AnyObject] {
+            //let aps = notification["aps"] as! [String: AnyObject] = NewsItem.makeNewsItem(aps)
+            //(window?.rootViewController as? UITabBarController)?.selectedIndex = 1
+            
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let newViewController = storyBoard.instantiateViewController(withIdentifier: "newViewController")
+            window?.rootViewController?.present(newViewController, animated: true, completion: nil)
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -40,7 +52,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    func registerForPushNotifications() {
+        // Called on startup to have a user grant push notification permissions
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) {
+            (granted, error) in
+            print("Permission granted: \(granted)")
+            
+            guard granted else { return }
+            self.getNotificationSettings()
+        }
+        
+    }
+    
+    func getNotificationSettings() {
+        // Called on startup to get the settings that the user actually granted
+        UNUserNotificationCenter.current().getNotificationSettings { (settings) in
+            print("Notification settings: \(settings)")
+            
+            guard settings.authorizationStatus == .authorized else { return }
+            UIApplication.shared.registerForRemoteNotifications()
+        }
+    }
+    
+    func application(_ application: UIApplication,
+                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        let tokenParts = deviceToken.map { data -> String in
+            return String(format: "%02.2hhx", data)
+        }
+        
+        let token = tokenParts.joined()
+        print("Device Token: \(token)")
+    }
+    
+    func application(_ application: UIApplication,
+                     didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("Failed to register: \(error)")
+    }
 
 }
 
